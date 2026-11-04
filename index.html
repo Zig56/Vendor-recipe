@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рецепты торговцев Path of Exile</title>
+    <link href="https://googleapis.com" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0d0d0f;
+            --panel-bg: #141419;
+            --accent-color: #af8628;
+            --text-color: #d1d1d6;
+            --text-muted: #8e8e93;
+            --border-color: #24242b;
+            --highlight-bg: #1c1c16;
+            --header-font: 'Oswald', 'Segoe UI', sans-serif;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            font-family: var(--header-font); /* Твой шрифт */
+            color: var(--accent-color);
+            margin: 0 0 10px 0;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        p.subtitle {
+            color: var(--text-muted);
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            font-family: var(--header-font); /* Твой шрифт */
+            color: var(--accent-color);
+            border-left: 4px solid var(--accent-color);
+            padding-left: 12px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 1.7rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .table-responsive {
+            overflow-x: auto;
+            background-color: var(--panel-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            margin-bottom: 25px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 0.95rem;
+        }
+
+        th, td {
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        th {
+            background-color: #191921;
+            color: #ffffff;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 0.5px;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        tr:hover td {
+            background-color: #181820;
+        }
+
+        .result-item {
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        .highlight {
+            color: #dfb24c;
+        }
+
+        .badge-act {
+            background-color: #4a2c11;
+            color: #ff9d3b;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            vertical-align: middle;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border-color);
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Рецепты торговцев Path of Exile</h1>
+        <p class="subtitle">Может пригодиться.</p>
+    </header>
+
+    <!-- СЮЖЕТНЫЙ КРАФТ -->
+    <h2><span class="badge-act">Полезно в актах</span> Рецепты для оружия и снаряжения</h2>
+    <div class="table-responsive">
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 30%;">Что отдаём торговцу</th>
+                    <th style="width: 30%;">Что получаем взамен</th>
+                    <th style="width: 40%;">Примечание</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Любое оружие + <span class="highlight">Кушак (Magic/Rare/Unique)</span> + Точильный камень</td>
+                    <td class="result-item">Оружие на физ. урон</td>
+                    <td>Даёт свойство повышенного физ. урона. Прогресс зависит от редкости пояса: Синий (40-49%), Жёлтый (50-69%), Уник (65-84%).</td>
+                </tr>
+                <tr>
+                    <td>Любые белые сапоги + <span class="highlight">Ртутный флакон</span> + Сфера усиления</td>
+                    <td class="result-item">Сапоги +10% к скорости бега</td>
+                    <td>Если сдать сапоги, у которых уже есть бонус к бегу, он увеличится на +5% (максимум до 30%).</td>
+                </tr>
+                <tr>
+                    <td>Железное кольцо + Красный камень умения</td>
+                    <td class="result-item">Кольцо с рубином</td>
+                    <td>Даёт базу на сопротивление к огню. Пригодится в Крематории 3 акта.</td>
+                </tr>
+                <tr>
+                    <td>Железное кольцо + Синий камень умения</td>
+                    <td class="result-item">Кольцо с сапфиром</td>
+                    <td>Даёт базу на сопротивление к холоду. Пригодится перед Мервейл в конце 1 акта.</td>
+                </tr>
+                <tr>
+                    <td>Железное кольцо + Зелёный камень умения</td>
+                    <td class="result-item">Кольцо с топазом</td>
+                    <td>Даёт базу на сопротивление к молнии. Будет полезным на боссе-пылесосе во 2 акте.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- РЕЦЕПТЫ НА ХАОСЫ -->
+    <h2>Рецепты на валюту</h2>
+    <div class="table-responsive">
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 30%;">Что отдаём торговцу</th>
+                    <th style="width: 30%;">Что получаем взамен</th>
+                    <th style="width: 40%;">Важное условие</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Полный комплект редкой экипировки уровня <span class="highlight">60–74</span> (Неопознанные)</td>
+                    <td class="result-item">2x Сфера хаоса</td>
+                    <td>Все вещи в комплекте должны быть <span class="highlight">неопознанными</span>. Комплект: Оружие (двуручное или 2 одноручных/щит), Шлем, Тушка, Перчатки, Сапоги, Пояс, Амулет, 2 Кольца.</td>
+                </tr>
+                <tr>
+                    <td>Полный комплект редкой экипировки уровня <span class="highlight">75–100</span> (Неопознанные)</td>
+                    <td class="result-item">2x Сфера царей (Regal Orb)</td>
+                    <td>Если уровень всех шмоток выше 75, вместо хаосов будут сферы царей. Будь внимателен, если нужны именно хаосы - закинь в сет хотя бы одну вещь 60–74 уровня.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <footer>
+        <p>Канал "<a href="https://www.youtube.com/@zigpoe" target="_blank" style="color: var(--accent-color); text-decoration: none;">Zig 💡</a>" © 2026. Заварите чаю, развалитесь на диване, акты никуда не убегут.</p>
+    </footer>
+</div>
+
+</body>
+</html>
